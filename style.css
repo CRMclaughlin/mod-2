@@ -1,0 +1,22 @@
+* {
+    background-color: black;
+}
+
+header {
+    text-align: right;
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+}
+
+li {
+    color: white;
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: underline;
+    font-size: 35px;
+    
+}
