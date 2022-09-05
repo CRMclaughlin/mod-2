@@ -12,16 +12,19 @@ header {
  font-family: 'Playfair Display', 'Courier New', sans-serif, monospace;
  background-color: black;
  color: white;
+ display: inline;
 }
+    
 
-nav {
-    float: left;
-}
-
-a {
+header ul {
+    padding-top: 25px;
+    margin-right: 20px;
     float: right;
     color: white;
-    display: inline;
     padding: 0px 20px;
-    font-size: 35px;
+    font-size: 30px;
+}
+li {
+    display: inline-block;
+    margin-left: 25px;
 }
