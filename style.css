@@ -1,22 +1,27 @@
 * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
     background-color: black;
 }
 
 header {
-    text-align: right;
-    display: inline-block;
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: black;
-    color: white;
+ padding: 20px;
+ font-family: 'Playfair Display', 'Courier New', sans-serif, monospace;
+ background-color: black;
+ color: white;
 }
 
-li {
+nav {
+    float: left;
+}
+
+a {
+    float: right;
     color: white;
     display: inline;
     padding: 0px 20px;
-    text-decoration: underline;
     font-size: 35px;
-    
 }
