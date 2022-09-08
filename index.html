@@ -1,106 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Module2</title>
+  <meta charset="UTF-8">
+  <title> Module 2 Chris McLaughlin</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav> <img src="./assets/toon.png" style= width:auto; height="100px" class="float-left"/>
-            <ul>
-                <li> 
-                    <a href= "#Projects">Projects</a>
-                </li>
-                <li> 
-                    <a href= "#About">About</a>
-                </li>
-                <li> 
-                    <a href= "#Contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class= "hi-name" style="float:left">
-            <h1>Hello I'm Christopher McLaughlin</h1>
-                 <h2> I am currently an currently an asprining web and game developer. I attend UW Coding camp. I am based in Milwaukee</h2>
-        </div>
-        <!-- I need to make this align with other main objects -->
-        <section class="headshot">
-            <img src="./assets/headshot.jpeg" style="float: right; width: auto;" alt="Chris Headshot">
+  <header>
+    <nav> <img src="./assets/toon.png" style=width:auto; height="100px" class="float-left" />
+      <ul>
+        <li>
+          <a href="#Projects">Projects</a>
+        </li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hi-name">
+      <div class="bio">
+        <h1>Hello I'm Christopher McLaughlin</h1>
+        <h2> I am currently an currently an asprining web and game developer. I attend UW Coding camp. I am based in
+          Milwaukee</h2>
+      </div>
+      <div class="headshot">
+        <img src="./assets/headshot.jpeg" style="float: right; width: auto;" alt="Chris Headshot">
+      </div>
+    </section>
+    
+      <section id= "Projects" class="row">
+        <div class="card-column">
+          <figure class="card">
+            <h3> <a href="Project Coming soon" class="card-header">Project 1</a></h3>
+            <div class="card-body">
+              <p>Short description of Application/project.</p>
+            </div>
+            <pre class="project-box"><code> Project
+              Coming
+
+Soon
         </section>
-       
-        <section id="Projects" class="row project-center">
-            <!-- Need more space between projects tab and content underneath. And would like to have all these cards in 2 X 2 rows -->
-            <h3>Project 1</h3>
-                <div class="card-column">
-                <figure class="card code-card">
-                  <h2 class="card-header">Project 1</h2>
-                  <div class="card-body">
-                    <p>Description of project inside 👾 </p>
-                  </div>
-                  <pre class="code-block"><code>
-                    Image 
-                    Coming
-                    Soon
-                </code></pre>
-            </figure>
-          </div>
-    
+
+        <section class="row">
           <div class="card-column">
-            <figure class="card code-card">
-              <h2 class="card-header">Project 2</h2>
+            <figure class="card">
+              <h3> <a href="Project Coming soon" class="card-header">Project 2</a></h3>
               <div class="card-body">
-                <p>Description of project inside 🤡</p>
+                <p>Short description of Application/project.</p>
               </div>
-              <pre class="code-block"><code>
-                Image
+              <pre class="project-box"><code> Project
                 Coming
-                Soon
-            </code></pre>
-        </figure>
-      </div>
+  
+Soon
+        </section>
 
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Project 3</h2>
-          <div class="card-body">
-            <p>Description of project inside 🦁</p>
-          </div>
-          <pre class="code-block"><code>
-            Image
-            Coming
-            Soon
-        </code></pre>
-    </figure>
-  </div>
-  <div class="card-column">
-    <figure class="card code-card">
-      <h2 class="card-header">Project 4</h2>
-      <div class="card-body">
-        <p>Description of project inside 🙈</p>
-      </div>
-      <pre class="code-block"><code>
-        Image
-        Coming
-        Soon
-    </code></pre>
-</figure>
-</div>
-<!-- obviously need better spacing, and more images to put in the right side -->
-<section id="About" class="about-me"></section>
-<h2>About Me</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus obcaecati sed doloremque repellat facere accusamus odio, iure officia, deserunt sequi voluptatum nesciunt reprehenderit labore nobis fugiat? Vitae ratione nostrum expedita.</p>
-    </main>
-    <footer>
-        <h2 id="Contact">Contact Me</h2>
-    
-    </footer>
+        <section class="row">
+          <div class="card-column">
+            <figure class="card">
+              <h3> <a href="Project Coming soon" class="card-header">Project 3</a></h3>
+              <div class="card-body">
+                <p>Short description of Application/project.</p>
+              </div>
+              <pre class="project-box"><code> Project
+                Coming
+  
+Soon
+        </section>
+      <div id="About" class="about-me">About Me</div>
+      <p>I am currently living in Milwaukee, Wisconsin. When not working or in school I love to go to the beach, play basketball, game with friends, and I enjoy cooking. </p>
+  </main>
 
-      
+   <footer>
+    <nav id="Contact" class="Contact">
+      <ul>
+        <li> <a href="https://github.com/CRMclaughlin?tab=repositories">Github</a></li>
+        <li> <a href="#">LinkedIn</a></li>
+        <li> <a href="mailto: ChrisMclaughin@123.com">E-Mail</a></li>
+      </ul>
+    </nav>
+  </footer> -->
+
+
 </body>
+
 </html>
