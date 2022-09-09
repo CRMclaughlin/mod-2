@@ -104,7 +104,6 @@ main h2 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2px;
-    width: fit-content;
 }
 
 .card-column {
@@ -127,6 +126,18 @@ main h2 {
     color: var(--white);
     text-align: center;
 }
+
+/* .project-box {
+    border: 5px groove var(--white);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    white-space: pre-wrap;
+} */
 
 .card h3{
     border: 2px groove var(--white);
@@ -184,4 +195,20 @@ p {
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 6rem;
     display: flex;
+}
+@media (max-width:1400px){
+    .card-column {
+        width: 48%;
+    }
+}
+
+@media (max-width: 930px) {
+    .card-column {
+        width: 100%;
+    }
+}
+@media (max-width 600px){
+    .card-column {
+        width: 100%;
+    }
 }
