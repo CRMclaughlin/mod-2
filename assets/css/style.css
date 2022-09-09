@@ -57,12 +57,16 @@ main h1 {
     font-family: 'Courier New', sans-serif, monospace;
     margin-left: var(--margin-left);
     margin-top: 10rem;
+    display: flex;
+    flex: row;
 }
 
 main h2 {
     padding: 25px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    display: flex;
+    flex: row;
     /* text-shadow: 2px 4px 2px gold; */
     
     
@@ -70,22 +74,23 @@ main h2 {
 
 .hi-name {
     display: flex;
-    flex: inline-block;
+    flex: content;
     justify-content: space-evenly;
     margin-top: 2rem;
     margin-bottom: 7rem;
+
 }
 
 .headshot img {
     display: flex;
-    flex: inline block;
+    flex: row;
     height: 550px;
     border-radius: 50%;
     border: 5px dotted rgb(16, 122, 210);  
 }
 
 .row p {
-    justify-content: space-around;
+    /* justify-content: */
     color: var(--white);
     font-size: 25px;
     text-align: center;
@@ -93,7 +98,13 @@ main h2 {
 }
 
 .row {
-    display:flex
+    /* float: left; */
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: fit-content;
 }
 
 .card-column {
@@ -117,18 +128,6 @@ main h2 {
     text-align: center;
 }
 
-.project-box {
-    border: 5px groove var(--white);
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    white-space: pre-wrap;
-}
-
 .card h3{
     border: 2px groove var(--white);
     font-size: 35px;
@@ -149,10 +148,11 @@ main h2 {
     font-size: 35px;
     color: red;
     text-align: center;
-    background: linear-gradient(rgb(6, 6, 6),var(--white));
+    background: linear-gradient(rgb(94, 43, 43),var(--white));
     padding: 15px;
     border-radius: 10px;
     white-space: pre-wrap;
+    padding: 20px;
 }
 
 .about-me {
@@ -162,6 +162,7 @@ main h2 {
     font-size: 55px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
 }
 
 footer {
@@ -182,4 +183,5 @@ p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 6rem;
+    display: flex;
 }
