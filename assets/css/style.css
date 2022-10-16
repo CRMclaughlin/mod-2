@@ -1,5 +1,5 @@
 :root {
-    --black: rgb(94, 43, 43);
+    --brick: rgb(94, 43, 43);
     --white: white;
     --margin-left: 25px;
     --font-family: 'Fira Sans', sans-serif;
@@ -12,13 +12,13 @@
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--brick);
 }
 
 header {
  padding: 20px;
  font-family: var(--font-family);
- background-color: var(--black);
+ background-color: var(--brick);
  color: var(--white);
  display: inline;
 }
@@ -60,6 +60,7 @@ main h1 {
     margin-top: 10rem;
     display: flex;
     flex: row;
+    justify-content: center;
 }
 
 main h2 {
@@ -67,27 +68,42 @@ main h2 {
     font-family: var(--font-family);
     color: white;
     display: flex;
-    flex: row;
+    justify-content: center;
     /* text-shadow: 2px 4px 2px gold; */
     
     
 }
 
+
 .hi-name {
     display: flex;
     flex: content;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 2rem;
     margin-bottom: 7rem;
-
+    
 }
 
 .headshot img {
-    display: flex;
-    flex: row;
+    display: inline-block;
     height: 550px;
     border-radius: 50%;
     border: 5px dotted rgb(16, 122, 210);  
+}
+
+.card-body {
+    background-color: var(--white);
+    color: black;
+}
+
+.card-body p, h3{
+    color: black;
+    background-color: var(--white);
+    font-family: var(--font-family);
+}
+
+.project-cards {
+    border: 5px;
 }
 
 .row p {
@@ -147,7 +163,7 @@ main h2 {
     border-radius: 25px;
     position: absolute;
     top: -45px;
-    background: var(--black);
+    background: var(--brick);
    
 }
 

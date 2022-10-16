@@ -29,18 +29,28 @@
     </nav>
   </header>
   <main>
-    <section class="container text-center hi-name">
+    <section class="container-fluid hi-name">
       <div class="row align-items-start bio">
-        <div class="col-8">
-        <h1>Hello I'm Christopher McLaughlin</h1>
-        <h2> I am currently an currently an asprining web and game developer. I attend UW Coding camp. I am based in
+        <div class="col">
+        <h1 class="text-center"> Hello I'm Christopher McLaughlin</h1>
+        <h2 class="text-center"> I am currently an currently an asprining web and game developer. I attend UW Coding camp. I am based in
           Milwaukee</h2>
-      <div class="col align-self-end headshot">
-        <img src="./assets/images/headshot.jpeg"  alt="Chris Headshot">
+        </div>
+      <div class="col-4 headshot">
+        <img src="./assets/images/headshot.jpeg" class="img-fluid" alt="Chris Headshot">
       </div>
     </section>
 
-    <section id="Projects" class="row">
+    <div class="w-50 mx-auto border border-warning  p-2 mb-3" id="project-cards">
+      <h3 class="card-title">Rock Paper Scissors</h3>
+      <img src="assets/images/RPS-game.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"> A simple web app to play Rock Paper Scissors.</p>
+        <a href="https://crmclaughlin.github.io/rock-paper-scissors/" class="d-grid gap-2 col-6 mx-auto btn btn-primary"> Press to Play</a>
+      </div>
+    </div>
+
+    <!-- <div id="Projects" class="col-6">
       <div class="card-column">
         <figure class="card">
           <h3> <a href="Project Coming soon" class="card-header">Project 1</a></h3>
@@ -51,9 +61,9 @@
             Project
             Coming
             Soon
-        </section>
+          </div>
 
-        <section class="row">
+        <section class="col-6">
           <div class="card-column">
             <figure class="card">
               <h3> <a href="Project Coming soon" class="card-header">Project 2</a></h3>
@@ -66,8 +76,7 @@
                 Soon
               </div>
 
-        <section class="row">
-          <div class="card-column">
+          <div class="column">
             <figure class="card">
               <h3> <a href="Project Coming soon" class="card-header">Project 3</a></h3>
               <div class="card-body">
@@ -77,7 +86,7 @@
                 Project
                 Coming
                 Soon
-        </section>
+        </section> -->
         
       <div id="About" class="about-me">About Me</div>
       <p>I am currently living in Milwaukee, Wisconsin. When not working or in school I love to go to the beach, play basketball, game with friends, and I enjoy cooking. </p>
