@@ -3,6 +3,7 @@
     --white: white;
     --margin-left: 25px;
     --font-family: 'Fira Sans', sans-serif;
+    display: flex;
 }
 
 * {
@@ -13,6 +14,7 @@
 
 body {
     background-color: var(--brick);
+    
 }
 
 header {
@@ -85,10 +87,12 @@ main h2 {
 }
 
 .headshot img {
-    display: inline-block;
+    display: flex;
+    justify-content: first baseline;
     height: 550px;
     border-radius: 50%;
-    border: 5px dotted rgb(16, 122, 210);  
+    border: 5px dotted rgb(16, 122, 210); 
+    min-width: auto; 
 }
 
 .card-body {
