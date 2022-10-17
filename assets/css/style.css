@@ -106,9 +106,17 @@ main h2 {
     font-family: var(--font-family);
 }
 
+#projects-line-2 {
+    
+    width: 35vw;
+}
+
 .project-cards {
     border: 5px;
+
 }
+
+
 
 .row p {
     /* justify-content: */
@@ -189,7 +197,7 @@ main h2 {
 
 .about-me {
     padding-top: 5rem;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     font-size: 55px;
     color: white;
@@ -217,19 +225,19 @@ p {
     padding-bottom: 6rem;
     display: flex;
 }
-@media (max-width:1400px){
-    .card-column {
-        width: 48%;
+/* @media (max-width:1000px){
+    .hi-name, #project-cards {
+        width: 50%;
     }
 }
 
 @media (max-width: 930px) {
-    .card-column {
+    .hi-name, #project-cards {
         width: 100%;
     }
 }
 @media (max-width: 600px){
-    .card-column {
+    .hi-name, #project-cards {
         width: 100%;
     }
-}
+} */
