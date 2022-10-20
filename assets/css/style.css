@@ -88,7 +88,7 @@ main h2 {
 
 .headshot img {
     display: flex;
-    justify-content: first baseline;
+    /* justify-content: first baseline; */
     height: 550px;
     border-radius: 50%;
     border: 5px dotted rgb(16, 122, 210); 
@@ -108,13 +108,17 @@ main h2 {
 
 #projects-line-2 {
     
-    width: 35vw;
+    display: flex;
+    justify-content: center;
+    
 }
 
-.project-cards {
-    border: 5px;
+/* .projects-line-2 {
+    border: 5px solid;
+    display: flex;
+    align-items: center;
 
-}
+} */
 
 
 
@@ -127,9 +131,8 @@ main h2 {
 }
 
 .row {
-    /* float: left; */
+    align-items: center;
     display: flex;
-    align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2px;
@@ -225,7 +228,7 @@ p {
     padding-bottom: 6rem;
     display: flex;
 }
-/* @media (max-width:1000px){
+@media (max-width:1000px){
     .hi-name, #project-cards {
         width: 50%;
     }
@@ -240,4 +243,4 @@ p {
     .hi-name, #project-cards {
         width: 100%;
     }
-} */
+}
