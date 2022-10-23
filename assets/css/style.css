@@ -217,17 +217,34 @@ p {
 }
 @media (max-width:1000px){
     .hi-name, #project-cards {
-        width: 50%;
+        width: 100%;
+    }
+    .headshot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
     }
 }
 
 @media (max-width: 930px) {
     .hi-name, #project-cards {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 650px){
     .hi-name, #project-cards {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headshot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
     }
 }
