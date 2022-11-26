@@ -211,7 +211,7 @@ p {
     color: var(--white);
     font-size: 35px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-family);
     padding-bottom: 6rem;
     display: flex;
 }
@@ -219,12 +219,12 @@ p {
     .hi-name, #project-cards {
         width: 100%;
     }
-    .headshot {
+    /* .headshot {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: auto;
-    }
+    } */
 }
 
 @media (max-width: 930px) {
@@ -242,9 +242,9 @@ p {
         align-items: center;
     }
     .headshot {
-        display: flex;
-        flex-direction: column;
+        
+        
         justify-content: center;
-        width: auto;
+        
     }
 }
